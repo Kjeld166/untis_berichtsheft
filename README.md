@@ -18,6 +18,11 @@ Ein kleines Projekt zum Export von Stunden aus WebUntis als CSV-Datei, damit Inf
 - lokaler Browser mit WebUntis-Login
 
 ## Schnellstart
+*Empfelung*
+```powershell
+python -m venv venv
+. venv/Scripts/activate
+```
 
 ```powershell
 python -m pip install -r requirements.txt
