@@ -7,7 +7,6 @@ Ein kleines Projekt zum Export von Stunden aus WebUntis als CSV-Datei, damit Inf
 - `webuntis_browser_export.py` – Hauptscript für den Browser-Export
 - `requirements.txt` – benötigte Python-Abhängigkeiten
 - `.env.example` – Beispiel für Umgebungsvariablen
-- `webuntis_4_wochen_export.csv` – Beispielausgabe für vier Wochen
 - `LICENSE` – Lizenzinformationen
 - `PRIVACY.md` – Datenschutzerklärung
 
