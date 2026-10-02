@@ -140,17 +140,37 @@ def card_subject(card) -> str:
         }"""
     )
 
+def append_lesson_if_valid(
+    rows: List[Dict[str, str]],
+    seen_periods: set[Tuple[str, str, str]],
+    row: Dict[str, str],
+) -> str:
+    if not row["lesson_topic"].strip():
+        return "missing_topic"
+
+    period = (row["date"], row["start"], row["end"])
+    if period in seen_periods:
+        return "duplicate"
+
+    seen_periods.add(period)
+    rows.append(row)
+    return "added"
+
+
 
 def extract_week(page: Page, monday: date, base_url: str, year_id: str) -> List[Dict[str, str]]:
     target = f"{base_url.rstrip('/')}/timetable/my-student?date={monday.isoformat()}"
     page.goto(target, wait_until="domcontentloaded")
-    page.locator("main").wait_for(state="visible", timeout=30000)
+    page.locator("#layout-main").wait_for(state="visible", timeout=30000)
     page.wait_for_timeout(1200)
 
     subjects = week_subjects(page, monday, year_id)
     cards = page.locator(".lesson-card-info-container")
     card_count = cards.count()
     rows: List[Dict[str, str]] = []
+    seen_periods: set[Tuple[str, str, str]] = set()
+    missing_topic_count = 0
+    duplicate_count = 0
 
     for index in range(card_count):
         card = cards.nth(index)
@@ -172,22 +192,28 @@ def extract_week(page: Page, monday: date, base_url: str, year_id: str) -> List[
         topic_values = [topic_fields.nth(i).input_value() for i in range(topic_fields.count())]
         topic = topic_values[-1] if topic_values else ""
 
-        rows.append(
-            {
-                "date": lesson_date.isoformat(),
-                "weekday": GERMAN_WEEKDAYS[lesson_date.weekday()],
-                "subject": subject,
-                "start": start_time,
-                "end": end_time,
-                "lesson_topic": topic.strip(),
-            }
-        )
+        row = {
+            "date": lesson_date.isoformat(),
+            "weekday": GERMAN_WEEKDAYS[lesson_date.weekday()],
+            "subject": subject,
+            "start": start_time,
+            "end": end_time,
+            "lesson_topic": topic.strip(),
+        }
+        result = append_lesson_if_valid(rows, seen_periods, row)
+        if result == "missing_topic":
+            missing_topic_count += 1
+        elif result == "duplicate":
+            duplicate_count += 1
 
         close_button = dialog.locator("button").first
         close_button.click()
         dialog.wait_for(state="hidden", timeout=10000)
 
-    print(f"{monday.isoformat()}: {len(rows)} Stunden gelesen")
+    print(
+        f"{monday.isoformat()}: {len(rows)} Stunden exportiert, "
+        f"{missing_topic_count} ohne Lehrstoff und {duplicate_count} Dubletten ausgelassen"
+    )
     return rows
 
 
@@ -230,9 +256,8 @@ def main() -> int:
             for monday in weeks:
                 rows.extend(extract_week(page, monday, args.url, args.year_id))
             write_csv(rows, args.output)
-            empty_topics = sum(not row["lesson_topic"] for row in rows)
             print(f"CSV geschrieben: {Path(args.output).resolve()}")
-            print(f"Stunden: {len(rows)}; ohne eingetragenen Lehrstoff: {empty_topics}")
+            print(f"Stunden mit eingetragenem Lehrstoff: {len(rows)}")
         finally:
             context.close()
     return 0
