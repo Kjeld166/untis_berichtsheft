@@ -38,7 +38,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--proxy",
         default=os.getenv("HTTPS_PROXY") or os.getenv("https_proxy") or os.getenv("HTTP_PROXY") or os.getenv("http_proxy"),
-        help="Optionaler Browser-Proxy, z.B. http://proxy.robotron.de:80",
+        help="Optionaler Browser-Proxy",
     )
     parser.add_argument(
         "--profile-dir",
