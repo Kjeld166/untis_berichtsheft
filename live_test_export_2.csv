@@ -1,0 +1,85 @@
+﻿date,weekday,subject,start,end,lesson_topic
+2026-08-31,Montag,KL,07:15,08:45,Belehrungen
+2026-08-31,Montag,eth1,09:15,10:45,Klassischer Utilitarismus Bentham
+2026-08-31,Montag,DIT11,11:00,12:30,"Belehrung Fachkabinett Informatik, Lehrplan LF11, UML-Diagrammübersicht, WH Anwendungsfalldiagramm"
+2026-08-31,Montag,deu1,13:10,14:40,"Kennenlernstunde, Sprache, Wortschatz und Textsorten"
+2026-09-01,Dienstag,DIT06,07:15,08:45,"Leistungsprozess aus rechtlicher Sicht
+Zielgruppen und Kundenanforderungen"
+2026-09-01,Dienstag,eng1,09:15,10:45,Belehrungen
+2026-09-01,Dienstag,rus1,11:00,12:30,"Старт, алфавит, «повторение - мать учения»"
+2026-09-01,Dienstag,MA1,13:10,14:40,Einführung LK Mathematik
+2026-09-02,Mittwoch,DIT11,07:15,08:45,Anwendungsfalldiagramm Include/Extend + Beispiel Pizzeria
+2026-09-02,Mittwoch,DIT07,09:15,10:45,Anforderungen an Kunden
+2026-09-02,Mittwoch,DIT08,11:00,12:30,"Einführung Rechnernetze, Geschichte"
+2026-09-02,Mittwoch,MA1,13:10,14:40,Einführung LK Mathematik
+2026-09-03,Donnerstag,rus1,11:00,12:30,Давайте познакомимся! Достопримечательности города Дрезден
+2026-09-03,Donnerstag,spo1,13:10,14:40,"Tischtennis
+Einführung 
+Technik Grundschläge"
+2026-09-04,Freitag,eng1,07:15,08:45,"- Organisatorisches: Lehrplan, Inhalte/Themen, Notenvergabe und Gewichtung
+- Lehrwerk Challenge, extra material
+- Challenges and chances?"
+2026-09-04,Freitag,deu1,09:15,10:45,Textsortenspiel und Schuljahrespläne
+2026-09-04,Freitag,ggk1,11:00,12:30,Was ist Politik? Weiter und enger Politikbegriff nach Joachim Detjen.
+2026-09-04,Freitag,phy1,13:10,14:40,"Einführung Physikkurs 12.1, Begriff der elektrischen Ladung"
+2026-09-07,Montag,ggk1,07:15,08:45,Betrachtung der Wahlergebnisse der Landtagswahl in Sachsen-Anhalt; Überblick über das Regierungssystem der Bundesrepublik Deutschland Methode: Kopiere
+2026-09-07,Montag,eth1,09:15,10:45,Anwendung Klassischer Utilitarismus
+2026-09-07,Montag,DIT11,11:00,12:30,"Baumstrukturen Arbeisblatt, Huffman-Codierung"
+2026-09-07,Montag,deu1,13:10,14:40,"Einstieg Weimarer Klassik, GA zu Goethe, Schiller, politischem Programm und Menschenbild"
+2026-09-07,Montag,lit1,14:50,16:20,"LERNBEREICH I:
+Schreibwerkstatt/Begriff Kreativität/ Creative Writing/Kennenlernen von Arbeitsschritten zur Vorbereitung eines Schreibvorhabens/Methodenbewusstsein"
+2026-09-08,Dienstag,eng1,09:15,10:45,"Kundenarten
+Angebots- und Beratungsgespräch
+AIDA Prinzip"
+2026-09-08,Dienstag,rus1,11:00,12:30,"Город Тула, работаем с текстом, новая лексика/ Adjektiv-Substantiv-Verbindungen"
+2026-09-08,Dienstag,MA1,13:10,14:40,"Zahlenfolgen: Begriff, Bildungsvorschriften, Einsatz des CAS zur Berechnung und Darstellung"
+2026-09-09,Mittwoch,DIT09,09:15,10:45,Kommunikationsregeln
+2026-09-09,Mittwoch,DIT08,11:00,12:30,Installation Barebones
+2026-09-10,Donnerstag,DIT10,07:15,08:45,Belehrung ET-Labor
+2026-09-10,Donnerstag,rus1,11:00,12:30,"Город Дрезден, пишем монолог"
+2026-09-10,Donnerstag,spo1,13:10,14:40,"Tischtennis
+Technik Grundschläge
+Spiel"
+2026-09-11,Freitag,MA1,07:15,08:45,Grenzwerte von Zahlenfolgen
+2026-09-11,Freitag,deu1,09:15,10:45,"Klassik - Merkmale der Bereiche Kunst, Politik und Menschenbildung; Gedichtanalyse dazu"
+2026-09-11,Freitag,ggk1,11:00,12:30,Vertiefung: Das Regierungssystem der Bundesrepublik Deutschland. Erarbeitung mit Analysefragen. Der Bundestag als Machtzentrum. Aufgaben des Bundestages.
+2026-09-11,Freitag,phy1,13:10,14:40,Coulombsches Gesetz
+2026-09-14,Montag,eng1,07:15,08:45,Sustainability and healthy lifestyle - McCartney
+2026-09-14,Montag,eth1,09:15,10:45,Anwendung Klassischer Utilitarismus
+2026-09-14,Montag,DIT11,11:00,12:30,"ASCII-Wiederholung, Unicode, UTF8"
+2026-09-14,Montag,deu1,13:10,14:40,"Rolle des antiken Theaters, Sophokles' Antigone, 2. Auftritt"
+2026-09-15,Dienstag,eng1,09:15,10:45,"Overview healthy lifestyle,
+adjective vs. adverbs"
+2026-09-15,Dienstag,rus1,11:00,12:30,Vokabeltraining «достопримечательность»/ пишем монолог
+2026-09-15,Dienstag,MA1,13:10,14:40,"Grenzwerte von Funktionen, Verhalten im Unendlichen"
+2026-09-16,Mittwoch,DIT11,07:15,08:45,"Vergleich ASCII, ANSI, Unicode, UTF8"
+2026-09-16,Mittwoch,DIT08,11:00,12:30,Installation Barebones Dualboot
+2026-09-16,Mittwoch,MA1,13:10,14:40,"waagerechte Asymptoten, Grenzwert einer Funktion an einer Stelle x0"
+2026-09-17,Donnerstag,DIT08,07:15,08:45,Versuch Schulnetz
+2026-09-17,Donnerstag,rus1,11:00,12:30,недалеко от
+2026-09-17,Donnerstag,spo1,13:10,14:40,"Tischtennis
+Technik Schlgbewegung VH
+Spiel"
+2026-09-18,Freitag,MA1,07:15,08:45,"einseitige Grenzwerte, Stetigkeit, Unstetigkeitsstellen"
+2026-09-18,Freitag,deu1,09:15,10:45,"Übungen zur Sprache und Dramentexterschließung in Antigone, 5. Auftritt, Selbstdiagnose vor der LK"
+2026-09-18,Freitag,ggk1,11:00,12:30,Die zentale Rolle des Bundestags im politischen System Deutschlands; Aufgaben und Funktionen; Verhältnis der Gewalten
+2026-09-18,Freitag,phy1,13:10,14:40,Feldstärke und Flussdichte
+2026-09-21,Montag,ggk1,07:15,08:45,Der Politikzyklus am Beispiel des Wehrdienst-Modernisierungsgesetzes.
+2026-09-21,Montag,eth1,09:15,10:45,"Wiederholung und Übung zur Weimarer Klassik, 1. Auftritt Antigone"
+2026-09-21,Montag,DIT11,11:00,12:30,"LK Anwendungsfalldiagr., Baumstruktur, Unicode"
+2026-09-21,Montag,eth1,13:10,14:40,Regelutilitarismus Mill
+2026-09-21,Montag,lit1,14:50,16:20,"Vorbereitung des Schreibvorhabens/Clustern/Freewriting/Serielles Schreiben (""Ich bin.../ ...und dann...)/Themenanregung/Grundwissen: Eine Kurzgeschichte schreiben"
+2026-09-22,Dienstag,eng1,09:15,10:45,You are what you eat?
+2026-09-22,Dienstag,rus1,11:00,12:30,Где находится Дрезден? готовимся к тесту
+2026-09-22,Dienstag,MA1,13:10,14:40,senkrechte Asymptoten
+2026-09-23,Mittwoch,DIT08,11:00,12:30,"Einteilung Rechnernetze, Versuch Blobby Volley"
+2026-09-23,Mittwoch,DIT08,13:10,14:40,Versuch Blobby Volley
+2026-09-24,Donnerstag,rus1,11:00,12:30,Тест: монолог о Дрездене
+2026-09-24,Donnerstag,spo1,13:10,14:40,"Tischtennis 
+Technik Schlagbewegung RH
+Spiel"
+2026-09-25,Freitag,MA1,07:15,08:45,"Auswertung der Übungsaufgaben und offener Fragen, LK Grenzwerte"
+2026-09-25,Freitag,deu1,09:15,10:45,"LK Weimarer Klassik und Sophokles´ Antigone, 
+Achtung, Bücher mitbringen - Rückgabe."
+2026-09-25,Freitag,ggk1,11:00,12:30,Gruppenarbeit: Erarbeitung des Gesetzgebungsprozess am Beispiel des Wehrdienst-Modernisierungsgesetzes mithilfe des Politikzyklus.
+2026-09-25,Freitag,phy1,13:10,14:40,Arbeit und Energie im elektrischen Feld
